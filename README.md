@@ -127,12 +127,13 @@ In order to use GAVAN, you may need to provide below detail :-
 -  MINUTE_TO_INGEST&rarr; Use this flag if your ingestion base on minutes
 -  USING_TUNNEL_OR_NOT&rarr; If you require tunneling to source side
 -  RECEPIENT&rarr; Who will get notification if there's failure
--  JOB_NAME&rarr; Name of this job
--  START_DT&rarr; Use this if want to ingest from specific date
--  ED_DT&rarr; Use this if want to ingest until specific date
 ```
 ['shahril@gmail.com','shahril.k@gmail.com']
 ```
+-  JOB_NAME&rarr; Name of this job
+-  START_DT&rarr; Use this if want to ingest from specific date
+-  ED_DT&rarr; Use this if want to ingest until specific date
+
 
    
 Below are some of example that GAVAN can cater for several scenario
