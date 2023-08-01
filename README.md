@@ -143,11 +143,10 @@ time python main.py
 --config_path {SOURCE_DETAIL} --script_folder {TEMP_STORAGE} 
 --tunnel {USING_TUNNEL_OR_NOT}
 --owner_task {RECEPIENT} 
---job_task {JOB_NAME} 
---st {START_DT} 
---ed {ED_DT} 
+--job_task {JOB_NAME}
+--LOOKBACKMIN {MINUTE_TO_INGEST} 
 ```
---LOOKBACKDAY {DAYS_TO_INGEST} --LOOKBACKHOUR {HOUR_TO_INGEST} --LOOKBACKMIN {MINUTE_TO_INGEST} 
+
 
 **Create table schemaset on Target side only**
 ```bash
@@ -166,7 +165,7 @@ time python main.py
 time python main.py 
 --sa {CREDENTIAL_TARGET} --secret {CREDENTIAL_SOURCE} 
 --config_path {SOURCE_DETAIL} --script_folder {TEMP_STORAGE} 
---LOOKBACKDAY {DAYS_TO_INGEST} 
+--LOOKBACKHOUR {HOUR_TO_INGEST} 
 --tunnel {USING_TUNNEL_OR_NOT}
 --owner_task {RECEPIENT} 
 --job_task {JOB_NAME} 
