@@ -207,7 +207,7 @@ time python main.py
 # Cost Comparison
 Currently, I've made a cost comparison on several alternative provider ( This is base on 5 TB of data active ingestion )
 
-[Cost Comparison](https://rococo-peony-322df2.netlify.app/)
+[Cost Comparison](https://gentle-lamington-d23729.netlify.app/)
 
 <img src="https://github.com/carillpower/GAVAN/blob/b55419bc3e504a89033462ec2666428dcf5bffaf/result.png" />
 
